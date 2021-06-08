@@ -155,7 +155,7 @@
 					<tr>
 						<td width="768" height="42" align="center" valign="top" background="images/anunturi.gif" style="padding-top:5px;">
 							<marquee class="anunt" direction="left" onMouseover="this.scrollAmount=3" onMouseout="this.scrollAmount=5">
-								<?
+								<?php
 								$cerereSQL = 'SELECT * FROM `anunturi` ORDER BY `id` DESC';
 								$rezultat = mysqli_query($conexiune, $cerereSQL);
 
@@ -279,7 +279,7 @@
 			<td width="14" height="100%" background="images/design_lorman_14.gif" rowspan="2">&nbsp;</td>
 
 			<td valign="top" bgcolor="#B2AE88" width="153" align="center">
-				<?
+				<?php
 				$table = getUserIpAddr();
 				$table = str_replace('.', '_', $table);
 
