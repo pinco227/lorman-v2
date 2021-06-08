@@ -1,0 +1,112 @@
+body {
+	background-image: url(images/background.gif);
+	background-attachment: fixed;
+	background-repeat: repeat;
+	font-family: Tahoma;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	margin: 0px 0px 0px 0px;
+	color: #412F13;
+}
+
+#dhtmltooltip {
+	position: absolute;
+	width: 80px;
+	border: 1px solid black;
+	padding: 2px;
+	background-color: white;
+	visibility: hidden;
+	z-index: 100;
+}
+
+img {
+	border: 0px;
+}
+
+a:link, a:visited, a:active {
+	color: #412F13;
+	font-family: Tahoma;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #B98D26;
+	font-family: Tahoma;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+td.cos1 {
+	font-family: Tahoma;
+	font-style: normal;
+	font-size: 12px;
+	font-weight: bold;
+	padding-right: 25px;
+	color: #B2AE88;
+	cursor: pointer;
+}
+
+table.cos2 {
+	font-family: Tahoma;
+	font-style: normal;
+	font-size: 12px;
+	font-weight: normal;
+	color: #412F13;
+}
+
+td.content {
+	width: 558px;
+	font-family: Tahoma;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	background-color: #B2AE88;
+}
+
+td.prod {
+	font-family: Tahoma;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+}
+
+td.admin {
+	font-family: Tahoma;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	background-color: #FFFFFF;
+}
+
+td.error {
+	font-family: Tahoma;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #FF0000;
+	background-color: #FFFFFF;
+}
+
+marquee.anunt {
+	font-family: Tahoma;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #B2AE88;
+	width: 755px;
+}
+
+.vezi_produs_title {
+	color: #B2AE88;
+	font-family: Tahoma;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: bold;
+	text-transform: capitalize;
+}
