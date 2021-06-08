@@ -30,7 +30,7 @@ if ((isset($_POST['comanda'])) || ($_POST['nume'] != '')) {
 		$table = getUserIpAddr();
 		$table = str_replace('.', '_', $table);
 
-		$catre = 'dilymanu@yahoo.com, birou@lorman.ro';
+		$catre = 'admin@admin';
 		$data_trimitere = date('d-m-Y H:i:s');
 		$subiect = 'Comanda ' . $data_trimitere . '';
 
@@ -101,7 +101,7 @@ if ((isset($_POST['comanda'])) || ($_POST['nume'] != '')) {
 		$headere .= "Content-type: text/html; charset=iso-8859-1\r\n";
 		$headere .= "From: " . $_POST['nume'] . " " . $_POST['prenume'] . " <LorMan di Mano>\r\n";
 
-		mail($catre, $subiect, $mesaj, $headere);
+		// mail($catre, $subiect, $mesaj, $headere);
 
 		echo '<center><br><br><b><font color="green">Comanda a fost efectuata cu succes !<br>Veti fi contactat telefonic in maxim 24 de ore pentru confirmare !</font></b><br><br></center>';
 
